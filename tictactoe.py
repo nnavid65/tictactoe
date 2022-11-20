@@ -184,7 +184,7 @@ def minimax(board):
          return sorted(plays, key = lambda  x: x[0], reverse = True)[0][1]
      
      
-        # Case of player is O (max player)
+        # Case of player is O (min player)
     elif player(board) == O:
          plays = []
          # Loop over the possible action 
